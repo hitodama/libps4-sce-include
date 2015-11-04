@@ -1,7 +1,5 @@
 #pragma once
 
-#include <types/pad.h>
-
 int scePadInit(void);
 int scePadOpe(int userID, int, int, void *);
 int scePadClose(int handle);
